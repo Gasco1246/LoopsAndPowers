@@ -51,7 +51,7 @@ public class LoopdieLoopPowers {
                     System.out.println("What is the number?");
                     num = keyInput.nextDouble();
                     numNew = num;
-                    for(int i = 1; i <= 3; i++){
+                    for(int i = 1; i <= 2; i++){
                         numNew = numNew*num;
                     }
                     System.out.println("Answer : "+numNew); 
